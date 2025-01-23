@@ -1,0 +1,25 @@
+title: Gunblade
+originalAuthor: wavingfuture
+description: Replaces Kingdom Key with Leon's Revolver Gunblade
+dependencies: 
+assets:
+- name: obj/W_EX010.mdlx
+  multi:
+  - name: obj/W_EX010_NM.mdlx
+  - name: obj/W_EX010_TR.mdlx
+  - name: obj/W_EX010_WI.mdlx
+  method: copy
+  source:
+  - name: obj/W_EX010.mdlx
+- name: remastered/obj/W_EX010.mdlx/-0.dds
+  multi:
+  - name: remastered/obj/W_EX010_NM.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_TR.mdlx/-0.dds
+  - name: remastered/obj/W_EX010_WI.mdlx/-0.dds
+  method: copy
+  source:
+  - name: remastered/W_EX010.mdlx/-0.dds
+- name: remastered/itempic/item-043.imd/-0.dds
+  method: copy
+  source:
+  - name: remastered/itempic/item-043.imd/-0.dds
