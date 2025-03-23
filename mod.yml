@@ -1,6 +1,7 @@
 title: Gunblade
 originalAuthor: wavingfuture
 description: Replaces Kingdom Key with Leon's Revolver Gunblade
+game: kh2
 dependencies: 
 assets:
 - name: obj/W_EX010.mdlx
